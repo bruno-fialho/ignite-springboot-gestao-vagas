@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.ignite.gestao_vagas.modules.candidate.CandidateEntity;
-import com.ignite.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
+
+import com.ignite.gestao_vagas.modules.candidate.entities.CandidateEntity;
+import com.ignite.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 
 @RestController
 @RequestMapping("/candidate")
